@@ -3,6 +3,8 @@
 
 AI4Bharat Task
 
+## Hosted link
+https://ai-4-bharat-task.vercel.app/
 
 ## Setup Instructions
 * Installation : Use `npm install` command in the terminal to install all the required repositories.
@@ -23,3 +25,4 @@ AI4Bharat Task
 * for a Good, fiture rich and user friendly table I Used material Ui, which has a high quality and easy to use collection of components. 
 * created a Model my self to which data is passed as soon as some row is clicked and the model is displayed.
 * on doing any clicking on backdrop or cross button or pressing esc the data is cleared and model is gon.
+
