@@ -19,7 +19,7 @@ const ModalOverlay = ({ user, onClick }) => {
       document.removeEventListener("keydown", handleKeyDown);
     };
   });
-    
+
   return (
     <div className={styles["modal-overlay"]}>
       <ul className={styles.list}>
@@ -27,9 +27,15 @@ const ModalOverlay = ({ user, onClick }) => {
           <span className={styles.span}>Address: </span>
           {`${address.street}, ${address.suite}, ${address.city}, ${address.zipcode}`}
         </li>
-        <li><span className={styles.span}>Phone: </span>{phone}</li>
         <li>
-          <span className={styles.span}>Website: </span> <a className={styles.anc} href={website}>{website}</a>
+          <span className={styles.span}>Phone: </span>
+          {phone}
+        </li>
+        <li>
+          <span className={styles.span}>Website: </span>{" "}
+          <a className={styles.anc} href={website}>
+            {website}
+          </a>
         </li>
       </ul>
       <br />

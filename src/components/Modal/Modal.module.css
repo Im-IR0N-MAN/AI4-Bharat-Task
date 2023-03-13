@@ -28,19 +28,19 @@
 
 .btn {
   background-color: white;
-  top:10;
+  top: 10;
   right: 10;
   height: 100%;
 }
 
-.list{
+.list {
   list-style: none;
 }
 
-.span{
+.span {
   font-weight: 500;
 }
 
-.anc{
+.anc {
   text-decoration: none;
 }

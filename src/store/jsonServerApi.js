@@ -7,7 +7,7 @@ export const jsonServerApi = createApi({
   }),
   endpoints: (builder) => ({
     getUsers: builder.query({
-      query: () => '/users',
+      query: () => "/users",
     }),
   }),
 });
