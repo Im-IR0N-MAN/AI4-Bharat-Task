@@ -3,8 +3,8 @@
 
 AI4Bharat Task
 
-## Hosted link
-https://ai-4-bharat-task.vercel.app/
+## Netlify hosting link 
+https://main--magenta-chimera-e1cd14.netlify.app/
 
 ## Setup Instructions
 * Installation : Use `npm install` command in the terminal to install all the required repositories.
