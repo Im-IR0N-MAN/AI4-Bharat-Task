@@ -1,0 +1,14 @@
+.table-container {
+  margin: auto auto;
+  max-width: 800px;
+  height: 410px
+}
+
+.Table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.row {
+  background-color: rgb(255, 0, 0);
+}
